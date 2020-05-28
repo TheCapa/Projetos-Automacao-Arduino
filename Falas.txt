@@ -1,0 +1,236 @@
+// external declaration of sound table:
+
+extern far cdata SNDTBL_FGHJFGJSGJK;
+
+// external declarations of addresses of sounds for direct access:
+
+extern far cdata SX_1;
+extern far cdata SX_2;
+extern far cdata SX_3;
+extern far cdata SX_4;
+extern far cdata SX_5;
+extern far cdata SX_6;
+extern far cdata SX_7;
+extern far cdata SX_8;
+extern far cdata SX_9;
+extern far cdata SX_10;
+extern far cdata SX_11;
+extern far cdata SX_12;
+extern far cdata SX_13;
+extern far cdata SX_14;
+extern far cdata SX_15;
+extern far cdata SX_16;
+extern far cdata SX_17;
+extern far cdata SX_18;
+extern far cdata SX_19;
+extern far cdata SX_20;
+extern far cdata SX_21;
+extern far cdata SX_22;
+extern far cdata SX_23;
+extern far cdata SX_24;
+extern far cdata SX_25;
+extern far cdata SX_26;
+extern far cdata SX_27;
+extern far cdata SX_28;
+extern far cdata SX_29;
+extern far cdata SX_30;
+extern far cdata SX_31;
+extern far cdata SX_32;
+extern far cdata SX_33;
+extern far cdata SX_34;
+extern far cdata SX_35;
+extern far cdata SX_36;
+extern far cdata SX_37;
+extern far cdata SX_38;
+extern far cdata SX_39;
+extern far cdata SX_40;
+extern far cdata SX_41;
+extern far cdata SX_42;
+extern far cdata SX_43;
+extern far cdata SX_44;
+extern far cdata SX_45;
+extern far cdata SX_46;
+extern far cdata SX_47;
+extern far cdata SX_48;
+extern far cdata SX_49;
+extern far cdata SX_50;
+extern far cdata SX_51;
+extern far cdata SX_52;
+extern far cdata SX_53;
+extern far cdata SX_54;
+extern far cdata SX_55;
+extern far cdata SX_56;
+extern far cdata SX_57;
+extern far cdata SX_58;
+extern far cdata SX_59;
+extern far cdata SX_1_Janeiro;
+extern far cdata SX_2_Fevereiro;
+extern far cdata SX_3_Mar_o;
+extern far cdata SX_4_Abril;
+extern far cdata SX_5_Maio;
+extern far cdata SX_6_Junho;
+extern far cdata SX_7_Julho;
+extern far cdata SX_8_Agosto;
+extern far cdata SX_9_Setembro;
+extern far cdata SX_10_Outubro;
+extern far cdata SX_11_Novembro;
+extern far cdata SX_12_Dezembro;
+extern far cdata SX_1_Segunda;
+extern far cdata SX_2_Ter_a;
+extern far cdata SX_3_Quarta;
+extern far cdata SX_4_Quinta;
+extern far cdata SX_5_Sexta;
+extern far cdata SX_7_Sabado;
+extern far cdata SX_8_Domingo;
+extern far cdata SX_2013;
+extern far cdata SX_2014;
+extern far cdata SX_2015;
+extern far cdata SX_2016;
+extern far cdata SX_2017;
+extern far cdata SX_2018;
+extern far cdata SX_2019;
+extern far cdata SX_2020;
+extern far cdata SX_2021;
+extern far cdata SX_2022;
+extern far cdata SX_2023;
+extern far cdata SX__C;
+extern far cdata SX_at__mais;
+extern far cdata SX_de;
+extern far cdata SX_Desligando_a_lampada;
+extern far cdata SX_Desligando_lampada_da_sacada;
+extern far cdata SX_Dia;
+extern far cdata SX_e;
+extern far cdata SX_Hora;
+extern far cdata SX_Horas;
+extern far cdata SX_internet_desligada;
+extern far cdata SX_Internet_desligada_pergunta;
+extern far cdata SX_internet_ligada;
+extern far cdata SX_Internet_ligada_pergunta;
+extern far cdata SX_Ligando_ha_lampada;
+extern far cdata SX_Ligando_lampada_da_sacada;
+extern far cdata SX_Ligando_o_computador;
+extern far cdata SX_Ligando_o_ventilador;
+extern far cdata SX_Minuto;
+extern far cdata SX_Minutos;
+extern far cdata SX_o_que_deseja;
+extern far cdata SX_ok;
+extern far cdata SX_Poderia_repetir;
+extern far cdata SX_Porta_aberta;
+extern far cdata SX_Porta_trancada;
+
+// constants defining sounds as entries in the sound table:
+
+#define SND_1                   1
+#define SND_2                   2
+#define SND_3                   3
+#define SND_4                   4
+#define SND_5                   5
+#define SND_6                   6
+#define SND_7                   7
+#define SND_8                   8
+#define SND_9                   9
+#define SND_10                  10
+#define SND_11                  11
+#define SND_12                  12
+#define SND_13                  13
+#define SND_14                  14
+#define SND_15                  15
+#define SND_16                  16
+#define SND_17                  17
+#define SND_18                  18
+#define SND_19                  19
+#define SND_20                  20
+#define SND_21                  21
+#define SND_22                  22
+#define SND_23                  23
+#define SND_24                  24
+#define SND_25                  25
+#define SND_26                  26
+#define SND_27                  27
+#define SND_28                  28
+#define SND_29                  29
+#define SND_30                  30
+#define SND_31                  31
+#define SND_32                  32
+#define SND_33                  33
+#define SND_34                  34
+#define SND_35                  35
+#define SND_36                  36
+#define SND_37                  37
+#define SND_38                  38
+#define SND_39                  39
+#define SND_40                  40
+#define SND_41                  41
+#define SND_42                  42
+#define SND_43                  43
+#define SND_44                  44
+#define SND_45                  45
+#define SND_46                  46
+#define SND_47                  47
+#define SND_48                  48
+#define SND_49                  49
+#define SND_50                  50
+#define SND_51                  51
+#define SND_52                  52
+#define SND_53                  53
+#define SND_54                  54
+#define SND_55                  55
+#define SND_56                  56
+#define SND_57                  57
+#define SND_58                  58
+#define SND_59                  59
+#define SND_1_Janeiro           60
+#define SND_2_Fevereiro         61
+#define SND_3_Mar_o             62
+#define SND_4_Abril             63
+#define SND_5_Maio              64
+#define SND_6_Junho             65
+#define SND_7_Julho             66
+#define SND_8_Agosto            67
+#define SND_9_Setembro          68
+#define SND_10_Outubro          69
+#define SND_11_Novembro         70
+#define SND_12_Dezembro         71
+#define SND_1_Segunda           72
+#define SND_2_Ter_a             73
+#define SND_3_Quarta            74
+#define SND_4_Quinta            75
+#define SND_5_Sexta             76
+#define SND_7_Sabado            77
+#define SND_8_Domingo           78
+#define SND_2013                79
+#define SND_2014                80
+#define SND_2015                81
+#define SND_2016                82
+#define SND_2017                83
+#define SND_2018                84
+#define SND_2019                85
+#define SND_2020                86
+#define SND_2021                87
+#define SND_2022                88
+#define SND_2023                89
+#define SND__C                  90
+#define SND_at__mais            91
+#define SND_de                  92
+#define SND_Desligando_a_lampada 93
+#define SND_Desligando_lampada_da_sacada 94
+#define SND_Dia                 95
+#define SND_e                   96
+#define SND_Hora                97
+#define SND_Horas               98
+#define SND_internet_desligada  99
+#define SND_Internet_desligada_pergunta 100
+#define SND_internet_ligada     101
+#define SND_Internet_ligada_pergunta 102
+#define SND_Ligando_ha_lampada  103
+#define SND_Ligando_lampada_da_sacada 104
+#define SND_Ligando_o_computador 105
+#define SND_Ligando_o_ventilador 106
+#define SND_Minuto              107
+#define SND_Minutos             108
+#define SND_o_que_deseja        109
+#define SND_ok                  110
+#define SND_Poderia_repetir     111
+#define SND_Porta_aberta        112
+#define SND_Porta_trancada      113
+
